@@ -3,8 +3,8 @@ import "animate.css";
 import Header from "./components/Header";
 import MinimumChargeCard from "./components/MinimumChargeCard/MinimumChargeCard";
 import CreateAccountButton from "./components/CreateAccountButton/CreateAccountButton";
+import { phoneNumber } from "@/utils/phoneNumber";
 
-const phoneNumber: number = 1144037591;
 const Home = () => {
   return (
     <>
