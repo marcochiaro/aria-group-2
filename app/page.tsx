@@ -9,14 +9,13 @@ const Home = () => {
   return (
     <>
       {/* <Script src="META SCRIPT" /> */}
-
       <Header />
-
-      {/** Minimo de carga - Card  */}
-      <MinimumChargeCard minimumCharge={200} />
 
       {/** BOTON - CREAR CUENTA */}
       <CreateAccountButton phoneNumber={phoneNumber} />
+
+      {/** Minimo de carga - Card  */}
+      <MinimumChargeCard minimumCharge={500} />
     </>
   );
 };
