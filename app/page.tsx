@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className="flex">
         {/** Minimo de carga - Card  */}
-        <MinimumChargeCard minimumCharge={500} />
+        <MinimumChargeCard minimumCharge={1000} />
 
         {/** Minimo de carga - Card  */}
         <MinimumWithdrawal minimumWithdrawal={2000} />
